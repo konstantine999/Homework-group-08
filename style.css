@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.sky{
+    background-color: blue;
+}
+a{
+    color: white;
+    text-decoration: none
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 310px;
+    
+}
+.title {
+    display: inline-block;
+    margin-left: 945px;
+    
+}
+.list li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+
+    
+}
+.wrapper{
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    height: 300px;
+    z-index: 1;
+
+}
+
+.list{
+    margin-top: 100px;
+    font-size: 15px;
+    padding: 40px;
+}
+.building2{
+    display: inline-block;
+    margin-top:520px;
+    margin-left:340px;
+    box-shadow: 5px 5px 1500px white;
+    position: relative
+    
+
+    
+  
+   
+}
+.building1{
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 350px;
+    box-shadow: 5px 5px 1500px white;
+    position: absolute;
+    
+    
+}
+
+button{
+    width: 100px;
+    border-radius: 10px;
+    Cursor:pointer
+}
+
+.page{
+    background-color: blue;
+   height: 1300px;
+}
