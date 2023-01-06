@@ -1,77 +1,93 @@
 *{
     box-sizing: border-box;
-    padding: 0;
+    padding:0;
     margin: 0;
-}
-
-.sky{
+}    
+.sky {
     background-color: blue;
 }
-a{
+a {
     color: white;
     text-decoration: none
 }
-.logo{
+.logo {
     display: inline-block;
     vertical-align: middle;
     margin-left: 310px;
-    
 }
 .title {
     display: inline-block;
     margin-left: 945px;
     
 }
-.list li{
+.list li {
     display: inline-block;
     vertical-align: middle;
     margin-left: 30px;
-
-    
 }
-.wrapper{
+.wrapper {
     width: 100%;
     background-color: blue;
     position: fixed;
     height: 300px;
     z-index: 1;
-
 }
-
-.list{
+.list {
     margin-top: 100px;
     font-size: 15px;
     padding: 40px;
 }
-.building2{
+.building2 {
     display: inline-block;
     margin-top:520px;
     margin-left:340px;
     box-shadow: 5px 5px 1500px white;
     position: relative
-    
-
-    
-  
-   
 }
-.building1{
+.building1 {
     display: inline-block;
     margin-left: 45px;
     margin-top: 350px;
     box-shadow: 5px 5px 1500px white;
     position: absolute;
-    
-    
 }
-
-button{
+button {
     width: 100px;
     border-radius: 10px;
     Cursor:pointer
 }
 
-.page{
+.page {
     background-color: blue;
    height: 1300px;
+}
+.leftside {
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 1050px;
+    margin-top: 100px;
+}
+
+.rightside {
+    display: inline-block;
+    margin-left: 700px;
+    margin-right: 850px;
+    margin-top: -200px;
+    box-shadow: 100px 100px 200px;
+    color: #4e5ff7 ;
+}
+
+.firsttext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    margin-top: 30px;
+}
+.secondtext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+    margin-top: 10px;
+}
+.building {
+    filter: drop-shadow(10px 10px 1px);
+    color: #0A22F4;
 }
