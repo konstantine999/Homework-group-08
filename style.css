@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-body{
-    background-color: blue
-}
-
 .sky{
     background-color: blue;
 }
@@ -75,4 +71,7 @@ button{
     Cursor:pointer
 }
 
-
+.page{
+    background-color: blue;
+   height: 1300px;
+}
